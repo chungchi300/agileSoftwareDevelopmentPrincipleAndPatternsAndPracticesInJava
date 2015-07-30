@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fc2b96e-c162-4afc-86ef-aa3b80824330" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/mock/Counter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/mock/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/varargs/ReportGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/varargs/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestMockery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestReportGenerator.java" />
-      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\.idea\libraries\Maven__cglib_cglib_nodep_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\.idea\libraries\Maven__org_beanshell_bsh_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\.idea\libraries\Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\.idea\libraries\Maven__org_jmock_jmock_2_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\.idea\libraries\Maven__org_jmock_jmock_junit3_2_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\.idea\libraries\Maven__org_jmock_jmock_testjar_2_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\.idea\libraries\Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payroll_final.iml" afterPath="$PROJECT_DIR$/payroll_final.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="2fc2b96e-c162-4afc-86ef-aa3b80824330" name="Default" comment="Add Mock">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/mock/LevelABeefFoodDeterminer.java" />
+      <change type="DELETED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\src\main\java\com\learning\mock\Counter.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestMockery.java" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestMockery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\j2me_wp\payroll_with_maven\payroll_final\src\main\java\com\learning\mock\Order.java" afterPath="$PROJECT_DIR$/src/main/java/com/learning/mock/Beef.java" />
     </list>
     <ignored path="payroll_final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +32,8 @@
       <file leaf-file-name="TestMockery.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/app/TestMockery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37468982">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.8511166">
+              <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,37 +41,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Beef.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learning/mock/Beef.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learning/mock/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learning/mock/Counter.java">
+      <file leaf-file-name="LevelABeefFoodDeterminer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learning/mock/LevelABeefFoodDeterminer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,9 +142,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestReportGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learning/jmockery/Counter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/learning/mock/Order.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestMockery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learning/mock/Counter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learning/mock/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learning/mock/Beef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learning/mock/FoodProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learning/mock/LevelAFoodDeterminer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learning/mock/LevelABreefFoodDeterminer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learning/mock/LevelABeefFoodDeterminer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestMockery.java" />
       </list>
     </option>
   </component>
@@ -883,7 +869,7 @@
       <workItem from="1438066558345" duration="218000" />
       <workItem from="1438069015362" duration="632000" />
       <workItem from="1438167120906" duration="1579000" />
-      <workItem from="1438244183112" duration="3440000" />
+      <workItem from="1438244183112" duration="5734000" />
     </task>
     <task id="LOCAL-00001" summary="test commit in intellj">
       <created>1437988117120</created>
@@ -927,11 +913,17 @@
       <option name="project" value="LOCAL" />
       <updated>1438056287887</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="    test commit in intellj">
+      <created>1438247755496</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1438247755496</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46209000" />
+    <option name="totallyTimeSpent" value="48503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -945,11 +937,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32006368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -960,7 +953,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1310,6 +1302,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,7 +1311,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1349,32 +1342,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learning/mock/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learning/mock/Beef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learning/mock/Counter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learning/mock/LevelABeefFoodDeterminer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/app/TestMockery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37468982">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.8511166">
+          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
