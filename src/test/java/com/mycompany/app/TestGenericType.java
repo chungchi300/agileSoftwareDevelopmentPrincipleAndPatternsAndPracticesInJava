@@ -5,7 +5,9 @@ import com.learning.genericType.BoxWihtoutGenericType;
 
 /**
  * Created by Administrator on 2015/7/7.
+Presenter
  */
+
 public class TestGenericType extends BaseTestCase {
     public void testNormalCollection() {
         assertTrue(true);

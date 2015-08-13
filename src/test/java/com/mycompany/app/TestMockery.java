@@ -38,7 +38,7 @@ public class TestMockery extends BaseTestCase {
         //execute
         spyLevelABeefFoodDeterminer.isLevelABeef(beef);
         //check,using mockery spy feature
-        //checking when is call levelABeef,the determineIsBigBeefCalled
+        //checking when is call levelABeef,the determineIsBigBeef Called
         verify(spyLevelABeefFoodDeterminer).determineIsBigBeef(beef);
 
 

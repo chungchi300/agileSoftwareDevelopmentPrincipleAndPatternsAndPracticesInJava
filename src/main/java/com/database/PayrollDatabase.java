@@ -1,6 +1,8 @@
 package com.database;
 
 import com.Employee;
+import com.SaleReceipt;
+import com.TimeCard;
 import com.dto.Student;
 import com.mapper.StudentMapper;
 import org.apache.ibatis.io.Resources;
@@ -22,6 +24,9 @@ public class PayrollDatabase {
     private static PayrollDatabase ourInstance = new PayrollDatabase();
     private static SqlSession session;
     Map<Integer,Employee> mockEmpployees = new HashMap<Integer,Employee>();
+    Map<Integer,SaleReceipt> mockSaleReceipts = new HashMap<Integer,SaleReceipt>();
+
+    Map<Integer,TimeCard> mockTimecards = new HashMap<Integer,TimeCard>();
     public void createEmployee(Employee employee){
          this.mockEmpployees.put(employee.getId(), employee);
     }
@@ -68,5 +73,17 @@ public class PayrollDatabase {
 
     public void deleteEmployee(int id) {
         this.mockEmpployees.remove(id);
+    }
+
+    public void createTimeCard(TimeCard timeCard) {
+        mockTimecards.put((int) timeCard.getDate().getTime(), timeCard);
+    }
+
+    public TimeCard findOrFailTimeCard(int time) {
+        return mockTimecards.get(time);
+    }
+
+    public SaleReceipt findOrFailSaleReceipt(long time) {
+        return  mockSaleReceipts.get(time);
     }
 }
