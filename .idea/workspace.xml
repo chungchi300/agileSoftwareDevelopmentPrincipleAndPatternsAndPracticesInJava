@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fc2b96e-c162-4afc-86ef-aa3b80824330" name="Default" comment="">
+    <list default="true" id="2fc2b96e-c162-4afc-86ef-aa3b80824330" name="Default" comment="Mockery">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="payroll_final.iws" />
@@ -852,7 +852,7 @@
       <workItem from="1439543581046" duration="18000" />
       <workItem from="1439547525255" duration="100000" />
       <workItem from="1439857185331" duration="41000" />
-      <workItem from="1440393972375" duration="9264000" />
+      <workItem from="1440393972375" duration="9287000" />
     </task>
     <task id="LOCAL-00001" summary="test commit in intellj">
       <created>1437988117120</created>
@@ -938,11 +938,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440408270853</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Mockery">
+      <created>1440408284986</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1440408284986</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84945000" />
+    <option name="totallyTimeSpent" value="84968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -989,7 +995,8 @@
     <MESSAGE value="test commit in intellj" />
     <MESSAGE value="    test commit in intellj" />
     <MESSAGE value="Mockito tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mockito tutorial" />
+    <MESSAGE value="Mockery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mockery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
