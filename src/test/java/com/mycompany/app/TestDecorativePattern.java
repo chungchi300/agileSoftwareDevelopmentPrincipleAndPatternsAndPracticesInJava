@@ -1,8 +1,6 @@
 package com.mycompany.app;
 
-import com.learning.decorativePattern.BreakFast;
-import com.learning.decorativePattern.Burger;
-import com.learning.decorativePattern.Ham;
+import com.learning.decorativePattern.*;
 
 /**
  * Created by Administrator on 2015/8/10.
@@ -27,7 +25,28 @@ public class TestDecorativePattern extends BaseTestCase {
 
         BreakFast burgetWithHam = new Ham(burger);
         BreakFast burgetWithHam2 = new Ham(burgetWithHam);
-        assertEquals(30,burgetWithHam2.getCost());
+        ll(burgetWithHam2.getDescription());
+        assertEquals(30, burgetWithHam2.getCost());
+
+    }
+    public void testHamEggBurger(){
+        BreakFast burger = new Burger();
+        //allow modified behavior dynamically and repeatly
+
+        BreakFast egg = new Egg(burger);
+        BreakFast burgetWithHam2 = new Ham(egg);
+        ll(burgetWithHam2.getDescription());
+        assertEquals(28,burgetWithHam2.getCost());
+
+    }
+    public void testHamEggSandWich(){
+        BreakFast burger = new Sandwich();
+        //allow modified behavior dynamically and repeatly
+
+        BreakFast egg = new Egg(burger);
+        BreakFast burgetWithHam2 = new Ham(egg);
+        ll(burgetWithHam2.getDescription());
+        assertEquals(18,burgetWithHam2.getCost());
 
     }
 }

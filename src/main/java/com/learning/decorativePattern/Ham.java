@@ -10,9 +10,9 @@ public class Ham implements BreakFastDecorator {
         this.breakFast = breakFast;
     }
 
-    public void getDescription() {
-        this.breakFast.getDescription();
-        System.out.println(" + Ham");
+    public String getDescription() {
+       return "Ham"+this.breakFast.getDescription();
+
     }
 
     public int getCost() {

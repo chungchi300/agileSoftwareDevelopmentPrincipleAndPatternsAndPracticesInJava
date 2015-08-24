@@ -15,5 +15,7 @@ public class BaseTestCase extends TestCase {
     public void testTrue(){
         this.assertTrue(true);
     }
-
+    public void ll(Object object){
+        System.out.println(object);
+    }
 }
