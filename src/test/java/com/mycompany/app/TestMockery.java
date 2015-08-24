@@ -22,7 +22,7 @@ public class TestMockery extends BaseTestCase {
     }
 
     public void testDetermineNonBigBeef() {
-
+        //yolo
         Beef beef = mock(Beef.class);
         when(beef.getWeight()).thenReturn(4999);
         assertFalse(LevelABeefFoodDeterminer.getInstance().determineIsBigBeef(beef));
