@@ -18,4 +18,10 @@ public class BaseTestCase extends TestCase {
     public void ll(Object object){
         System.out.println(object);
     }
+    public void assertReach(){
+        assertTrue(true);
+    }
+    public void assertNotReach(){
+        assertTrue(false);
+    }
 }
