@@ -2,79 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc2b96e-c162-4afc-86ef-aa3b80824330" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/chainOfResponsibility/CEO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/flyweight/Citizen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/chainOfResponsibility/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/flyweight/FiftyDollar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/chainOfResponsibility/FrontlineEmployee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/flyweight/HundredDollar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/chainOfResponsibility/MiddleManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/flyweight/PaperMoney.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/flyweight/PaperMoneyFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/learning/flyweight/PaperMoneyType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestChainOfResponsibility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestClosure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/TestFlyweight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employeeManagement/add/AddEmployeeTransaction.class" afterPath="$PROJECT_DIR$/target/classes/com/employeeManagement/add/AddEmployeeTransaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employeeManagement/add/AddHourlyEmployeeTransaction.class" afterPath="$PROJECT_DIR$/target/classes/com/employeeManagement/add/AddHourlyEmployeeTransaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employeeManagement/add/AddSalariedAndCommissionedEmployeeTransaction.class" afterPath="$PROJECT_DIR$/target/classes/com/employeeManagement/add/AddSalariedAndCommissionedEmployeeTransaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employeeManagement/add/AddSalariedEmployeeTransaction.class" afterPath="$PROJECT_DIR$/target/classes/com/employeeManagement/add/AddSalariedEmployeeTransaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/saleReceiptManagement/AddSaleReceiptTransaction.class" afterPath="$PROJECT_DIR$/target/classes/com/saleReceiptManagement/AddSaleReceiptTransaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/timeCardManagement/AddTimeCardTransaction.class" afterPath="$PROJECT_DIR$/target/classes/com/timeCardManagement/AddTimeCardTransaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mycompany/app/App.class" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/app/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/avoidNestingForLoop/Ball.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/avoidNestingForLoop/Ball.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/avoidNestingForLoop/BallColorStats.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/avoidNestingForLoop/BallColorStats.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/avoidNestingForLoop/BallStatsAnalyst.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/avoidNestingForLoop/BallStatsAnalyst.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/BaseTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/BaseTestCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/mock/Beef.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/mock/Beef.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/schedule/BiweeklyPaymentSchedule.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/schedule/BiweeklyPaymentSchedule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/genericType/Box.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/genericType/Box.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/genericType/BoxWihtoutGenericType.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/genericType/BoxWihtoutGenericType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/memento/BoxerCaretaker.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/memento/BoxerCaretaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/memento/BoxerMemento.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/memento/BoxerMemento.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/memento/BoxerOriginator.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/memento/BoxerOriginator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/BreakFast.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/BreakFast.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/BreakFastDecorator.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/BreakFastDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/Burger.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/Burger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employeeManagement/DeleteEmployeeTransaction.class" afterPath="$PROJECT_DIR$/target/classes/com/employeeManagement/DeleteEmployeeTransaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/Egg.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/Egg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Employee.class" afterPath="$PROJECT_DIR$/target/classes/com/Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mapper/EmployeeMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mapper/EmployeeMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/Ham.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/Ham.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/method/HoldMethod.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/method/HoldMethod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/classification/HourlyPaymentClassifcation.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/classification/HourlyPaymentClassifcation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/mock/LevelABeefFoodDeterminer.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/mock/LevelABeefFoodDeterminer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/schedule/MonthlyPaymentSchedule.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/schedule/MonthlyPaymentSchedule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/database/ObjectNotFoundException.class" afterPath="$PROJECT_DIR$/target/classes/com/database/ObjectNotFoundException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/classification/PaymentClassification.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/classification/PaymentClassification.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/method/PaymentMethod.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/method/PaymentMethod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/schedule/PaymentSchedule.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/schedule/PaymentSchedule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/database/PayrollDatabase.class" afterPath="$PROJECT_DIR$/target/classes/com/database/PayrollDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/varargs/ReportGenerator.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/varargs/ReportGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/classification/SalariedAndCommissionedPaymentClassifcation.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/classification/SalariedAndCommissionedPaymentClassifcation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/classification/SalariedPaymentClassifcation.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/classification/SalariedPaymentClassifcation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/SaleReceipt.class" afterPath="$PROJECT_DIR$/target/classes/com/SaleReceipt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/Sandwich.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/decorativePattern/Sandwich.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/dto/Student.class" afterPath="$PROJECT_DIR$/target/classes/com/dto/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/varargs/Student.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/varargs/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mapper/StudentMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mapper/StudentMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestAddEmployee.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestAddEmployee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestAddTimeCard.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestAddTimeCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestBoxerMemento.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestBoxerMemento.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestCleanCodeJava.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestCleanCodeJava.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestDecorativePattern.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestDecorativePattern.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestGenericType.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestGenericType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestMockery.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestMockery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestPrimitiveTypeCompareMethod.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestPrimitiveTypeCompareMethod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestReportGenerator.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/TestReportGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/TimeCard.class" afterPath="$PROJECT_DIR$/target/classes/com/TimeCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employeeManagement/TransactionCommand.class" afterPath="$PROJECT_DIR$/target/classes/com/employeeManagement/TransactionCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/employee/payment/schedule/WeeklyPaymentSchedule.class" afterPath="$PROJECT_DIR$/target/classes/com/employee/payment/schedule/WeeklyPaymentSchedule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/BaseTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/BaseTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payroll_final.iml" afterPath="$PROJECT_DIR$/payroll_final.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="payroll_final.iws" />
@@ -923,7 +850,7 @@
       <workItem from="1441008023160" duration="19000" />
       <workItem from="1441010842768" duration="5000" />
       <workItem from="1441018948961" duration="93000" />
-      <workItem from="1441098858904" duration="4217000" />
+      <workItem from="1441098858904" duration="4311000" />
     </task>
     <task id="LOCAL-00001" summary="test commit in intellj">
       <created>1437988117120</created>
@@ -1051,11 +978,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440661952258</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Mockery">
+      <created>1441103808622</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1441103808622</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96998000" />
+    <option name="totallyTimeSpent" value="97092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1040" extended-state="0" />
