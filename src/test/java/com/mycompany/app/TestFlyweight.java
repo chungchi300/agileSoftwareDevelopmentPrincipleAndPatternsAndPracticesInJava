@@ -13,6 +13,7 @@ public class TestFlyweight extends BaseTestCase{
             ll(PaperMoneyFactory.makePaperMoney(PaperMoneyType.FiftyDollarPaper).getId());
             ll(PaperMoneyFactory.makePaperMoney(PaperMoneyType.HundredDollarPaper).getId());
         }
+
         ll("number of paperMoney" + PaperMoneyFactory.getPaperMoneyFlyweightPoolForTestOnly().size());
     }
 }

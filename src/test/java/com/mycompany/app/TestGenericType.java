@@ -37,6 +37,7 @@ public class TestGenericType extends BaseTestCase {
     public void testNotCreatingTwoClassInRunTimeButJustCompileTimeLimitation(){
         Box<String> box = new Box<String>();
         Box<Integer> boxI = new Box<Integer>();
+
         assertEquals(box.getClass(),boxI.getClass());
     }
 }
